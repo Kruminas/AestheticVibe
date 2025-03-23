@@ -6,3 +6,16 @@
     background-size: cover;
     background-position: center;
 }
+video {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 460px
+}
+.song {
+    font-size: 19px;
+    width: 14%;
+    position: relative;
+    margin-left: 35%;
+    margin-bottom: 34%;
+    text-align: justify;
+}

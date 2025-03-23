@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import Aesthetic from "./Components/Aesthetic"
 import Sekiro from "./Components/Sekiro"
 import Workout from "./Components/Workout"
-import Energy from "./Components/Energy"
+import Society from "./Components/Society"
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/Aesthetic" element={<Aesthetic />} />
         <Route path="/Sekiro" element={<Sekiro />} />
         <Route path="/Workout" element={<Workout />} />
-        <Route path="/Energy" element={<Energy />} />
+        <Route path="/Society" element={<Society />} />
       </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@ import "../App.css";
 import WorkoutVideo from "../music/Workout.mp4";
 import { useNavigate } from "react-router-dom";
 
-function Home() {
+function Workout() {
   const navigate = useNavigate();
   return (
     <div className="container-fluid text-white bg-black min-vh-100">
@@ -18,7 +18,7 @@ function Home() {
           <button type="button" className="btn btn-primary" onClick={() => navigate("/Aesthetic")}>Aesthetic</button>
           <button type="button" className="btn btn-secondary" onClick={() => navigate("/Sekiro")}>Sekiro</button>
           <button type="button" className="btn btn-success" onClick={() => navigate("/Workout")}>Workout</button>
-          <button type="button" className="btn btn-danger" onClick={() => navigate("/Energy")}>Energy</button>
+          <button type="button" className="btn btn-danger" onClick={() => navigate("/Society")}>Society</button>
         </div>
 
         </div>
@@ -31,4 +31,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Workout;

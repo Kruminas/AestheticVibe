@@ -16,7 +16,7 @@ function Home() {
           <button type="button" className="btn btn-primary" onClick={() => navigate("/Aesthetic")}>Aesthetic</button>
           <button type="button" className="btn btn-secondary" onClick={() => navigate("/Sekiro")}>Sekiro</button>
           <button type="button" className="btn btn-success" onClick={() => navigate("/Workout")}>Workout</button>
-          <button type="button" className="btn btn-danger" onClick={() => navigate("/Energy")}>Energy</button>
+          <button type="button" className="btn btn-danger" onClick={() => navigate("/Society")}>Society</button>
         </div>
         </div>
     </div>

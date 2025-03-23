@@ -1,21 +1,36 @@
 .Header {
     font-family: 'The Aesthetic Essential', sans-serif;
-    margin-bottom: 0;
     background-image: url("https://img.freepik.com/premium-vector/abstract-waves-shiny-black-moving-lines-design-element-dark-background-satin-drapery-backdrop_440066-573.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-video {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 460px
-}
 .song {
-    font-size: 19px;
-    width: 14%;
-    position: relative;
-    margin-left: 35%;
-    margin-bottom: 34%;
+    font-size: 1.2rem;
+    max-width: 20%;
     text-align: justify;
+    margin-top: 16%;
+    margin-left: 51%;
+}
+
+.aesthetic-video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.sekiro-video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.workout-video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.energy-video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
